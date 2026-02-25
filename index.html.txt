@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FOOD EXPRESS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Select Your State</h1>
+
+    <select id="state">
+        <option>Gujarat</option>
+        <option>Maharashtra</option>
+        <option>Rajasthan</option>
+        <option>Delhi</option>
+        <option>Punjab</option>
+        <option>Karnataka</option>
+        <option>Tamil Nadu</option>
+        <option>Madhya Pradesh</option>
+    </select>
+
+    <button onclick="goToLogin()">Continue</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

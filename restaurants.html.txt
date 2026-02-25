@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurants - FOOD EXPRESS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 class="title">FOOD EXPRESS Restaurants</h1>
+
+<div class="restaurant-grid">
+
+    <div class="restaurant-card">🍕 Pizza Hut</div>
+    <div class="restaurant-card">🍔 McDonald's</div>
+    <div class="restaurant-card">🍗 KFC</div>
+    <div class="restaurant-card">🥪 Subway</div>
+    <div class="restaurant-card">🍟 Burger King</div>
+    <div class="restaurant-card">🥗 Salad Point</div>
+    <div class="restaurant-card">🍜 Noodle House</div>
+    <div class="restaurant-card">🍛 Indian Thali</div>
+    <div class="restaurant-card">🌮 Taco Bell</div>
+    <div class="restaurant-card">🍣 Sushi Bar</div>
+    <div class="restaurant-card">🥘 Biryani House</div>
+    <div class="restaurant-card">🍩 Donut World</div>
+    <div class="restaurant-card">🥞 Pancake Hub</div>
+    <div class="restaurant-card">🍨 Ice Cream Land</div>
+    <div class="restaurant-card">🥙 Shawarma King</div>
+    <div class="restaurant-card">🍲 Soup Station</div>
+    <div class="restaurant-card">🥖 Bakery Cafe</div>
+    <div class="restaurant-card">🍹 Juice Bar</div>
+    <div class="restaurant-card">🥟 Momos Corner</div>
+    <div class="restaurant-card">🍤 Seafood Hub</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
