@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - FOOD EXPRESS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="navbar">
+    <h2>Checkout</h2>
+    <button onclick="goCart()">Back to Cart</button>
+  </div>
+
+  <div class="container">
+    <h3>Delivery Address</h3>
+    <div id="addressForm">
+      <input type="text" id="name" placeholder="Full Name" required>
+      <input type="text" id="street" placeholder="Street Address" required>
+      <input type="text" id="city" placeholder="City" required>
+      <input type="text" id="state" placeholder="State" required>
+      <input type="text" id="zip" placeholder="ZIP / PIN Code" required>
+      <button onclick="saveAddress()">Save Address</button>
+    </div>
+
+    <div id="savedAddress" style="display:none;">
+      <p><strong>Deliver To:</strong></p>
+      <p id="displayAddress"></p>
+      <button onclick="editAddress()">Edit Address</button>
+    </div>
+
+    <h3>Payment Method</h3>
+    <div id="paymentMethods">
+      <input type="radio" name="payment" id="upi" value="UPI" checked> <label for="upi">UPI</label><br>
+      <input type="radio" name="payment" id="cod" value="COD"> <label for="cod">Cash on Delivery</label><br>
+      <input type="radio" name="payment" id="card" value="Card"> <label for="card">Card</label><br>
+    </div>
+
+    <button onclick="placeOrder()">Place Order</button>
+  </div>
+
+  <script src="checkout.js"></script>
+</body>
+</html>
